@@ -1,16 +1,20 @@
 {
-    "name": "bobbymaher/emitter",
-    "description": "wrapper for emitter.io around bluerhinos/phpmqtt",
+    "name": "gaborreszler/emitter",
     "type": "library",
+    "description": "PHP 8.0 compatible wrapper for emitter.io by bobbymaher/emitter around bluerhinos/phpmqtt",
+    "keywords": ["emitter","emitterio","phpmqtt"],
+    "homepage": "https://github.com/gaborreszler/emitter.io-php",
     "authors": [
         {
-            "name": "Bobby Maher",
-            "email": "bobby.maher@icabbi.com"
+            "name": "Gabor Reszler",
+            "email": "hello@gaborreszler.dev",
+            "homepage": "https://gaborreszler.dev",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3"
+        "php": ">=8.0"
     },
     "autoload": {
         "psr-4": {
